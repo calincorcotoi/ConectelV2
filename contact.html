@@ -205,7 +205,7 @@
           <div class="team-section">
             <div class="sec-title text-center">
               <h2 style="font-size: clamp(2.5rem, 5vw, 4.5rem)">
-                Hai să ne cunoaștem!
+                HAI SĂ NE CUNOAȘTEM!
               </h2>
             </div>
             <div class="row align-items-center">
@@ -352,6 +352,7 @@
                   background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
                   padding: 40px;
                   border-radius: 15px;
+                  margin-bottom: 40px;
                   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
                   backdrop-filter: blur(10px);
                 "
@@ -365,7 +366,7 @@
                       position: relative;
                     "
                   >
-                    Povestea Noastră
+                    POVESTEA NOASTRĂ
                     <span
                       style="
                         position: absolute;
@@ -477,51 +478,336 @@
       </section>
       <!-- End Contact Form Section -->
 
-      <!-- Contact Map Section - CUM NE GĂSEȘTI -->
-      <section class="contact-map-section" style="background-color: #5ca56b">
+      <!-- Contact Form Section - CUM NE GĂSEȘTI -->
+      <section class="contact-form-section">
         <!-- Background Layers -->
-        <div class="background-layers">
-          <div class="cws-image-bg">
-            <div class="cws-triangle-overlay"></div>
-            <div class="map-outer">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.2754!2d21.2270671!3d45.7536905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47455d84610f3893%3A0x601c5419cfa68dd1!2sTimișoara%2C%20Romania!5e0!3m2!1sen!2sro!4v1577174486999!5m2!1sen!2sro"
-                height="450"
-                style="border: 0; width: 100%"
-              ></iframe>
-            </div>
-          </div>
-        </div>
+        <div class="background-layers"></div>
 
         <div class="auto-container">
           <div class="row">
-            <div class="content-column col-lg-6 col-md-12 col-sm-12 offset-6">
+            <!-- Map Column - Left Side -->
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <div
+                class="map-container"
+                style="
+                  height: 600px;
+                  border-radius: 20px;
+                  overflow: hidden;
+                  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+                  margin: 40px 0;
+                "
+              >
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45844.10417063247!2d21.186630999999998!3d45.7489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47455d84610685bf%3A0x601c53b3e1b5840!2sTimișoara%2C%20România!5e0!3m2!1sen!2sro!4v1641234567890!5m2!1sen!2sro"
+                  width="100%"
+                  height="100%"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+
+            <!-- Contact Info Column - Right Side -->
+            <div class="content-column col-lg-6 col-md-12 col-sm-12">
               <div class="inner-column">
-                <div class="sec-title">
-                  <h2>CUM NE GĂSEȘTI</h2>
-                  <div class="text">
-                    Suntem o echipă de specialiști în automatizări și case
-                    inteligente, cu sediul în Timișoara. Oferim consultanță
-                    gratuită și soluții personalizate pentru fiecare proiect.
+                <div class="sec-title" style="margin-bottom: 40px">
+                  <h2
+                    style="
+                      color: #2c3e50;
+                      font-size: clamp(2rem, 4vw, 3rem);
+                      margin-bottom: 20px;
+                      position: relative;
+                    "
+                  >
+                    CUM NE GĂSEȘTI
+                  </h2>
+                </div>
+
+                <div
+                  class="contact-item"
+                  style="
+                    display: flex;
+                    align-items: center;
+                    padding: 15px;
+                    background: white;
+                    border-radius: 10px;
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+                    transition: all 0.3s ease;
+                    margin-bottom: 20px;
+                    text-align: left;
+                  "
+                >
+                  <div
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      background: linear-gradient(45deg, #539760, #6db36f);
+                      border-radius: 50%;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      margin-right: 15px;
+                      flex-shrink: 0;
+                    "
+                  >
+                    <i
+                      class="fa fa-map-marker-alt"
+                      style="color: white; font-size: 18px"
+                    ></i>
+                  </div>
+                  <div style="text-align: left">
+                    <h6
+                      style="
+                        color: #2c3e50;
+                        margin: 0 0 5px 0;
+                        font-weight: 600;
+                        text-align: left;
+                      "
+                    >
+                      Locație
+                    </h6>
+                    <span style="color: #666; font-size: 16px; text-align: left"
+                      >Timișoara, România</span
+                    >
                   </div>
                 </div>
-                <h4>Conectel România</h4>
-                <div class="contact-info row">
-                  <div class="contact-block col-lg-6 col-md-6 col-sm-12">
-                    <div class="inner">
-                      <span class="icon fa fa-map-signs"></span>
-                      <h5>Adresă</h5>
-                      <p>Timișoara</p>
-                      <p>România</p>
-                    </div>
-                  </div>
 
-                  <div class="contact-block col-lg-6 col-md-6 col-sm-12">
-                    <div class="inner">
-                      <span class="icon fa fa-phone"></span>
-                      <h5>Detalii Contact</h5>
-                      <p>0742 888 170</p>
-                      <p>contact@conectel.ro</p>
+                <div
+                  class="contact-item"
+                  style="
+                    display: flex;
+                    align-items: center;
+                    padding: 15px;
+                    background: white;
+                    border-radius: 10px;
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+                    transition: all 0.3s ease;
+                    cursor: pointer;
+                    margin-bottom: 20px;
+                    text-align: left;
+                  "
+                  onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 10px 25px rgba(0,0,0,0.15)'"
+                  onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 15px rgba(0,0,0,0.08)'"
+                  onclick="window.location.href='mailto:contact@conectel.ro'"
+                >
+                  <div
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      background: linear-gradient(45deg, #539760, #6db36f);
+                      border-radius: 50%;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      margin-right: 15px;
+                      flex-shrink: 0;
+                    "
+                  >
+                    <i
+                      class="far fa-envelope"
+                      style="color: white; font-size: 18px"
+                    ></i>
+                  </div>
+                  <div style="text-align: left">
+                    <h6
+                      style="
+                        color: #2c3e50;
+                        margin: 0 0 5px 0;
+                        font-weight: 600;
+                        text-align: left;
+                      "
+                    >
+                      Email
+                    </h6>
+                    <a
+                      href="mailto:contact@conectel.ro"
+                      style="
+                        color: #539760;
+                        font-size: 16px;
+                        text-decoration: none;
+                        font-weight: 500;
+                        text-align: left;
+                      "
+                      >contact@conectel.ro</a
+                    >
+                  </div>
+                </div>
+
+                <div
+                  class="contact-item"
+                  style="
+                    display: flex;
+                    align-items: center;
+                    padding: 15px;
+                    background: white;
+                    border-radius: 10px;
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+                    transition: all 0.3s ease;
+                    cursor: pointer;
+                    margin-bottom: 20px;
+                    text-align: left;
+                  "
+                  onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 10px 25px rgba(0,0,0,0.15)'"
+                  onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 15px rgba(0,0,0,0.08)'"
+                  onclick="window.location.href='tel:+40742888170'"
+                >
+                  <div
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      background: linear-gradient(45deg, #539760, #6db36f);
+                      border-radius: 50%;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      margin-right: 15px;
+                      flex-shrink: 0;
+                    "
+                  >
+                    <i
+                      class="fa fa-phone"
+                      style="color: white; font-size: 18px"
+                    ></i>
+                  </div>
+                  <div style="text-align: left">
+                    <h6
+                      style="
+                        color: #2c3e50;
+                        margin: 0 0 5px 0;
+                        font-weight: 600;
+                        text-align: left;
+                      "
+                    >
+                      Telefon
+                    </h6>
+                    <a
+                      href="tel:+40742888170"
+                      style="
+                        color: #539760;
+                        font-size: 16px;
+                        text-decoration: none;
+                        font-weight: 500;
+                        text-align: left;
+                      "
+                      >0742 888 170</a
+                    >
+                  </div>
+                </div>
+
+                <div
+                  class="contact-item"
+                  style="
+                    display: flex;
+                    align-items: center;
+                    padding: 15px;
+                    background: white;
+                    border-radius: 10px;
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+                    transition: all 0.3s ease;
+                    cursor: pointer;
+                    margin-bottom: 20px;
+                    text-align: left;
+                  "
+                  onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 10px 25px rgba(0,0,0,0.15)'"
+                  onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 15px rgba(0,0,0,0.08)'"
+                >
+                  <div
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      background: linear-gradient(45deg, #539760, #6db36f);
+                      border-radius: 50%;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      margin-right: 15px;
+                      flex-shrink: 0;
+                    "
+                  >
+                    <i
+                      class="fab fa-whatsapp"
+                      style="color: white; font-size: 18px"
+                    ></i>
+                  </div>
+                  <div style="text-align: left">
+                    <h6
+                      style="
+                        color: #2c3e50;
+                        margin: 0 0 5px 0;
+                        font-weight: 600;
+                        text-align: left;
+                      "
+                    >
+                      WhatsApp
+                    </h6>
+                    <span
+                      style="
+                        color: #539760;
+                        font-size: 16px;
+                        text-decoration: none;
+                        font-weight: 500;
+                        text-align: left;
+                      "
+                      >Mesaj rapid
+                    </span>
+                  </div>
+                </div>
+
+                <div
+                  class="contact-item"
+                  style="
+                    display: flex;
+                    align-items: center;
+                    padding: 15px;
+                    background: white;
+                    border-radius: 10px;
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+                    transition: all 0.3s ease;
+                    margin-bottom: 20px;
+                    text-align: left;
+                  "
+                >
+                  <div
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      background: linear-gradient(45deg, #539760, #6db36f);
+                      border-radius: 50%;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      margin-right: 15px;
+                      flex-shrink: 0;
+                    "
+                  >
+                    <i
+                      class="fa fa-clock"
+                      style="color: white; font-size: 18px"
+                    ></i>
+                  </div>
+                  <div style="text-align: left">
+                    <h6
+                      style="
+                        color: #2c3e50;
+                        margin: 0 0 5px 0;
+                        font-weight: 600;
+                        text-align: left;
+                      "
+                    >
+                      Program
+                    </h6>
+                    <div
+                      style="
+                        color: #666;
+                        font-size: 14px;
+                        line-height: 1.4;
+                        text-align: left;
+                      "
+                    >
+                      <div>L-V: 09:00 - 18:00</div>
+                      <div>Sâmbătă: 10:00 - 14:00</div>
                     </div>
                   </div>
                 </div>
@@ -530,7 +816,7 @@
           </div>
         </div>
       </section>
-      <!-- End Contact Map Section -->
+      <!-- End Contact Form Section -->
 
       <!-- Main Footer -->
       <footer
